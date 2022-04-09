@@ -1,4 +1,4 @@
-# arithmetic_calculations
+# Arithmetic Calculations
 A compiler developed in C++ in order to convert RPN S-Expressions into Assembly for Arduino UNO.
 
 # Students
