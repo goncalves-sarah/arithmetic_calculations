@@ -33,7 +33,7 @@ int main() {
   file.open ("options.txt");
   while(getline(file, query)){
     //Assure RPN format
-    cout << query;
+    //cout << query;
     if (!regex_match (query, regex("^\\(.* .* .*\\)$"))){
       cout <<"Error: Invalid syntax -> '" << query << "'\n";
       break;
